@@ -1,7 +1,7 @@
 public class PhD extends Employee {
 
 
-    PhD(Employee pEmployee){
+    PhD(IEmployee pEmployee){
         super(pEmployee);
     }
 

@@ -6,7 +6,7 @@ public class Employee implements IEmployee {
         this.salary = pSalary;
     }
 
-    Employee(Employee pEmployee){
+    Employee(IEmployee pEmployee){
         this.salary = pEmployee.getSalary();
     }
 

@@ -3,7 +3,7 @@ public class UniMember extends Student implements IUniMember {
     private String name;
     private float salary;
 
-    UniMember(Student pStudent, String pName, float pSalary){
+    UniMember(IStudent pStudent, String pName, float pSalary){
         super(pStudent);
         this.name = pName;
         this.salary = pSalary;
@@ -15,7 +15,7 @@ public class UniMember extends Student implements IUniMember {
         this.salary = pSalary;
     }
 
-    UniMember(UniMember pUniMember){
+    UniMember(IUniMember pUniMember){
         super(pUniMember.getSubject());
         this.name = pUniMember.getName();
         this.salary = pUniMember.getSalary();

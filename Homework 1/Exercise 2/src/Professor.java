@@ -1,6 +1,6 @@
 public class Professor extends Employee {
 
-    Professor(Employee pEmployee){
+    Professor(IEmployee pEmployee){
         super(pEmployee);
     }
 

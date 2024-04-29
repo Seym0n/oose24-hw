@@ -1,7 +1,7 @@
 public class Tutor extends UniMember {
 
 
-    Tutor(UniMember pUniMember){
+    Tutor(IUniMember pUniMember){
         super(pUniMember);
     }
 }

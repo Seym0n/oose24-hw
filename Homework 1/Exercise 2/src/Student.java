@@ -6,7 +6,7 @@ public class Student implements IStudent {
         this.subject = pSubject;
     }
 
-    Student(Student pStudent){
+    Student(IStudent pStudent){
         this.subject = pStudent.getSubject();
     }
 
