@@ -1,28 +1,39 @@
 package hw2.a1;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
-public class Seminar {
+public class Seminar<T extends IStudent> {
     private String name;
     private String id;
 
-    //TODO: List of participants
+    private LinkedList<T> participants;
 
     public Seminar(String name, String id) {
         this.name = name;
         this.id = id;
-        //TODO: Initialize list of participants
+        this.participants = new LinkedList<T>();
     }
 
-    public void addParticipant(/*TODO: Parameter*/) {
-        //TODO: Add to list of participants
+    public void addParticipant(T pParticipant) {
+        this.participants.add(pParticipant);
     }
 
-    public /*TODO: Return Type*/ getParticipants() {
+    public LinkedList<T> getParticipants() {
         return participants;
     }
 
+    public LinkedList<T> getParticipantsFromStudyProgram(String subject){
+        LinkedList<T> participantsStudyProgram = new LinkedList<T>();
+        for(T participant : this.participants){
+            if(participant.getSubject().equals(subject)){
+                participantsStudyProgram.add(participant);
+            }
+        }
+        return participantsStudyProgram;
+    }
 
     public static void main(String[] args) {
         Seminar<PhD> phdStudents = new Seminar<PhD>("Doktorandenseminar", "");
