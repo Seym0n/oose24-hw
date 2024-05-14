@@ -1,10 +1,1 @@
-C:\Users\Simon\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Simon/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\Studium\oose24-hw\Homework 2\Exercise 2" -B "D:\Studium\oose24-hw\Homework 2\Exercise 2\cmake-build-debug"
--- The C compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Users/Simon/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (1.3s)
--- Generating done (0.0s)
--- Build files have been written to: D:/Studium/oose24-hw/Homework 2/Exercise 2/cmake-build-debug
+CMakeLists.txt not found in D:\Studium\oose24-hw\Homework 2\Exercise 2 Select CMakeLists.txt
