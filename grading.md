@@ -20,3 +20,14 @@
 | 3         | 2/2       |
 | **Total** | 10.0/10.0 |
 
+
+## HW3
+
+| Exercise  | Points    |
+|-----------|-----------|
+| 1         | 3.75/4    |
+| 2         | 2/2       |
+| 3         | 4/4       |
+| **Total** | 9.75/10.0 |
+
+Exercise 1: Last one is rather a process + usability requirement.
